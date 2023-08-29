@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aajpeg"
+    tools:context=".UpdateProfile">
+
+    <ImageView
+        android:id="@+id/imageViewY"
+        android:layout_width="@dimen/image_width_signup"
+        android:layout_height="@dimen/image_height_signup"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_image" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="278dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="67dp"
+        android:text="@string/update_page"
+        android:textAlignment="center"
+        android:textColor="#252323"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewY" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="Enter id no"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <EditText
+        android:id="@+id/role"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="Enter update seeker or employee"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="Enter Update name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/role" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="Enter update password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="  Re enter  password :"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="Enter update phone no"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userid" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="Enter update address"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <Button
+        android:id="@+id/deleteU"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_left"
+        android:text="@string/delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/updateU"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repassword" />
+
+    <Button
+        android:id="@+id/updateU"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_right"
+        android:text="@string/update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/deleteU"
+        app:layout_constraintTop_toBottomOf="@+id/repassword" />
+
+
+
+</android.support.constraint.ConstraintLayout>

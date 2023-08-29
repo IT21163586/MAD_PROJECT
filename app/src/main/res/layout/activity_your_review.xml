@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nb"
+    tools:context=".yourReview">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:text="Reviews"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/idV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:inputType="textPersonName"
+        android:hint="Id"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/nameV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/emailV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="320dp"
+        android:inputType="textPersonName"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:hint="Email" />
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/revV"
+        android:layout_width="398dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Review"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/EditV"
+        android:layout_width="189dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/black"
+        android:text="Edit"
+        android:textSize="26dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/delV"
+        android:layout_width="189dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/black"
+        android:text="Delete"
+        android:textSize="26dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/viewV"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="@color/white"
+        android:text="View Job"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+
+
+</RelativeLayout>
+

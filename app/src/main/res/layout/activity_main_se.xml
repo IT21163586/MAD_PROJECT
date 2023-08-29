@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aajpeg"
+    tools:context=".MainActivitySE">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="343dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="34dp"
+        android:background="#897373"
+        android:backgroundTint="#17FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/job" />
+
+    <Button
+        android:id="@+id/jobSeeker"
+        android:layout_width="@dimen/main_select_button_width"
+        android:layout_height="@dimen/main_select_button_height"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_left"
+        android:text="@string/Job_Seeker"
+        android:textColor="#F1E7E7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/useridL"
+        app:layout_constraintEnd_toStartOf="@+id/employee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/employee"
+        android:layout_width="@dimen/main_select_button_width"
+        android:layout_height="@dimen/main_select_button_height"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_right"
+        android:text="@string/Employer"
+        android:textColor="#F1E9E9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/useridL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jobSeeker"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/useridL"
+        android:layout_width="@dimen/main_editText_width"
+        android:layout_height="@dimen/main_editText_height"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="   Enter Id No"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/passwordL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordL"
+        android:layout_width="@dimen/main_editText_width"
+        android:layout_height="@dimen/main_editText_height"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="   Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/useridL" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="@dimen/main_sign_button_width"
+        android:layout_height="@dimen/main_sign_button_height"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_blue"
+        android:text="@string/sign_IN"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/signUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="@dimen/main_sign_button_width"
+        android:layout_height="@dimen/main_sign_button_height"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="79dp"
+        android:background="@drawable/button_red"
+        android:text="@string/sign_up"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signIn" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/check_box"
+        app:layout_constraintBottom_toTopOf="@+id/signIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordL" />
+
+
+</android.support.constraint.ConstraintLayout>

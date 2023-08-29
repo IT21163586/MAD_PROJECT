@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivitySE">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Job"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/codeD"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:inputType="textPersonName"
+        android:hint="Job Id"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+
+    <Button
+        android:id="@+id/deleteD"
+        android:layout_width="386dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/black"
+        android:text="Delete"
+        android:textSize="26dp" />
+
+
+
+</RelativeLayout>

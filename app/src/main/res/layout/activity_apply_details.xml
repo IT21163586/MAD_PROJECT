@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ApplyDetails">
+
+
+    <RelativeLayout
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/boarder">
+
+
+        <Button
+            android:id="@+id/editV"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="420dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="Edit"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/deleteV"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="420dp"
+            android:backgroundTint="@color/delete"
+            android:textColor="@color/white"
+            android:text="Delete"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/Code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter the job code here"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/Qualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="120dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Qualification"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="170dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Age"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="220dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Address"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="270dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="320dp"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:ems="10"
+            android:hint="Contact Number"
+            android:inputType="textPersonName"
+            android:textSize="24dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="312dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:text="Job Details"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/viewV"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="470dp"
+        android:backgroundTint="@color/white"
+        android:text="View Applied Job"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+
+
+
+</RelativeLayout>

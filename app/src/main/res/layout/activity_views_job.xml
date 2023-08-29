@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ViewsJob">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Details"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/codeE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:inputType="textPersonName"
+        android:hint="Job Id :"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/unameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:inputType="textPersonName"
+        android:hint="User Name :"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/educateEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="190dp"
+        android:inputType="textPersonName"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:hint="@string/qualifications" />
+
+    <EditText
+        android:id="@+id/ageEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:inputType="textPersonName"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:hint="@string/age" />
+
+    <EditText
+        android:id="@+id/phoneEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="470dp"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:hint="@string/phone"/>
+
+    <EditText
+        android:id="@+id/addressEdit"
+        android:layout_width="401dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/address"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+
+    <EditText
+        android:id="@+id/emailEdit"
+        android:layout_width="398dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/email"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/savesEdit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/cancel"
+        android:textColor="@color/white"
+        android:text="Save"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/cancelsEdit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Cancel"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/logoo" />
+
+
+
+</RelativeLayout>

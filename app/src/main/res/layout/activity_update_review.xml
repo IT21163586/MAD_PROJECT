@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nb"
+    tools:context=".updateReview">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Review"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/idU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:inputType="textPersonName"
+        android:hint="Id"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/nameU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/emailU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="320dp"
+        android:inputType="textPersonName"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:hint="Email" />
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/revU"
+        android:layout_width="398dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Review"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/saveU"
+        android:layout_width="189dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/black"
+        android:text="save"
+        android:textSize="26dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/cancelU"
+        android:layout_width="189dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/black"
+        android:text="Cancel"
+        android:textSize="26dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/logo" />
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nb"
+    tools:context=".MainActivityRe">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="338dp"
+        android:layout_height="63dp"
+        android:text="Dashboard"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/lightgreen"
+        android:text="Submit Review"
+        android:textSize="26dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/yourreview"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/lightgreen"
+        android:text="Your Reviews"
+        android:textSize="26dp"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>

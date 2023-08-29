@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aajpeg"
+    tools:context=".DeleteProfile">
+
+
+    <ImageView
+        android:id="@+id/imageViewY"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="131dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_image" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="273dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="69dp"
+        android:text="@string/delete_Profile"
+        android:textAlignment="center"
+        android:textColor="#252323"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewY" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="  Enter Nic No"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="@dimen/editText_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/textbox"
+        android:ems="10"
+        android:hint="  Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userid" />
+
+    <Button
+        android:id="@+id/updateD"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/button_left"
+        android:text="@string/update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/deleteD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Button
+        android:id="@+id/deleteD"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/button_right"
+        android:text="@string/delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/updateD"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+</android.support.constraint.ConstraintLayout>
